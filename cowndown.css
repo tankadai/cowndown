@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .countdown-container {
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 60px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff0000; /* YouTube red */
+    color: #fff;
+    border: 1px solid #ff0000; /* Match background color for border */
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #cc0000; /* Darker shade of red on hover */
+  }
+  
+  
+  #countdown {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
